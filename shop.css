@@ -1,0 +1,382 @@
+
+.liv{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px solid #bbb;
+    font-size: small;
+
+}
+
+.liv ul{
+    display: flex;
+    justify-content: center;
+}
+
+.liv li{
+    list-style: none;
+    padding-left: 10px;
+    color: #bbb;
+}
+#abc{
+    color: blue;
+}
+#abd{
+    color: gray;
+}
+.boutique{
+    border-right: 1px solid #bbb ;
+    padding-right: 5px;
+}
+.moncompte{
+    border-right: 1px solid #bbb ;
+    padding-right: 5px;
+
+}
+nav{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: stretch;
+    cursor: pointer;
+}
+.velo{
+    color: blue;
+}
+.navbar ul{
+    display: flex;
+    justify-content:center;
+    color: rgb(54, 43, 43);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 60px ;
+    cursor: pointer;
+}
+.navbar li{
+    list-style: none;
+    padding-left: 30px;
+}
+.logo img{
+    width: 50px;
+}
+.CALL{
+    display: flex;
+}
+.CALL img{
+    height: 30px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.contenu img{
+    width: 100%;
+    height: 600px;
+}
+.contenu{
+    background-image:url(image2-modified.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#search input{
+    margin-top: 18px;
+    padding: 4px;
+    border-radius: 30px;
+    border-color: #ffffff;
+}
+input:focus{
+    box-shadow: 2px 2px 4px 4px  rgb(190, 214, 236);
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.decription{
+    flex: 1;
+    color:#ffffff;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.fond {
+    flex: 1;
+    font-size: 20px;
+    color: blue;
+    margin-left: 40px;
+    
+}
+.fond h1{
+    width: 75%;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.dernier{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-right: #bbb 2px solid;
+    margin: 20px;
+}
+.offres{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.dernier h3{
+    width: 50%;
+    border-bottom: 2px solid blue;
+}
+.dernier img{
+    width: 100px;
+}
+.dernier p{
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dernier h2{
+    color: blue;
+}
+.aaa{
+    border-bottom: 2px solid blue;
+}
+.offres h2{
+    width: 40%;
+}
+.offres img{
+    width: 500px;
+    margin-left: 140px;
+}
+.des-offre{
+    font-size: large;
+    font-style: italic;
+    color:black;
+    padding-left: 10px;
+}
+.prixelec{
+    font-size:17px ;
+    text-decoration: line-through;
+    color: #bbb;
+    padding-left: 10px;
+}
+.prixelecc{
+    color: blue;
+    margin: 5px 20px
+}
+.border{
+    border: 3px solid blue;
+    border-radius: 10px;
+
+}
+.paiement{
+    display:flex;
+    padding-left: 20px;
+    background-color: #bbb;
+    margin-top: 40px;
+}
+.paiement img{
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+}
+.paiement h3{
+    padding-top: 12px;
+    padding-left: 20px;
+    color: blue;
+}
+.paiement h2{
+    padding-top: 8px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.social i{
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#image:hover{
+    color:blue;
+    transform: scale(1.2);
+}
+#imagee:hover{
+    color:rgb(207, 58, 58);
+    transform: scale(1.2);
+}
+#imageee:hover{
+    color:green;
+    transform: scale(1.2);
+}
+.fix{
+    position: sticky;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.shopping-card-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #e7e7e7;
+border-radius: 10px;
+padding: 3%;
+padding-top: 50px;
+margin: 50px 0;
+}
+.total-price span {
+    font-size: 30px;
+    color: rgb(24, 24, 114);
+    text-decoration: underline;
+
+}
+
+.total {
+font-weight: bold;
+}
+.list-products {
+display: flex;
+justify-content: center;
+align-content: stretch;
+flex-wrap: wrap;
+margin-top: 30px;
+width: 80%;
+}
+.card {
+padding: 5%;
+
+}
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+margin: 10px;
+}
+
+.quantity {
+font-size: 25px;
+}
+
+.card-body div {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.card-body h5{
+    color: blue;
+    font-size: larger;
+}
+.card-body p{
+    font-size: 12px;
+    font-family:monospace;
+}
+.card-body i{
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.card-body span{
+    margin-top: 5px;
+}
+.card-body h4{
+    color: blue;
+}
+
+.fa-trash-alt {
+color:blue;
+}
+.card img{
+    width: 250px;
+}
+.card-title{
+    font-size: medium;
+}
+.avis{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid #bbb;
+    margin-right:300px;
+    margin-left:300px;
+}
+.imageetnom{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.imageetnom img{
+    width: 50px;
+    border-radius: 100px;
+}
+.imageetnom h3{
+    padding-right:20px ;
+    padding-left: 20px;
+}
+.imageetnom i{
+    color: blue;
+}
+.entete {
+    color: rgb(122, 188, 201);
+    padding-left: 30px;
+}
+.connection{
+    display: flex;
+ 
+
+}
+.seconnecter{
+    flex: 1;
+    margin-left:50px ;
+    border-right: 2px solid #bbb ;
+    margin-right: 80px;
+}
+.senregistrer{
+    flex: 1;
+    margin-right:50px ;
+}
+.connection h3{
+    font-size: x-large;
+    color: rgb(36, 36, 78);
+    
+}
+.connection h5{
+    color: #bbb;
+    font-size: medium;
+}
+.connection input{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 40px;
+}
+.connection button{
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    border-color:white;
+    cursor: pointer;
+}
