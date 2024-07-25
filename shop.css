@@ -225,6 +225,7 @@ input:focus{
     top: 0;
     width: 100%;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -342,6 +343,7 @@ color:blue;
 .entete {
     color: rgb(122, 188, 201);
     padding-left: 30px;
+    font-size: small;
 }
 .connection{
     display: flex;
